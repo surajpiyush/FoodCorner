@@ -1,0 +1,37 @@
+.details{
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;
+    width: 80%;
+    border: 10px solid rgb(216, 201, 201);
+    border-radius: 5px;
+    margin: auto;
+    padding: auto;
+    gap: auto;
+}
+
+.ingredients{
+    display: flex;
+    flex-direction:column;
+    justify-content:end;
+    background-color: rgb(224, 221, 226);
+    width: 80%;
+    border: 10px solid rgb(216, 201, 201);
+    border-radius: 5px;
+    margin: auto;
+    padding: auto;
+    gap: auto;
+}
+.contain{
+    display: flex;
+    justify-content: space-between;
+    gap: auto;
+    .img{
+border: 5px solid rgb(209, 206, 206);
+border-radius: 5px;
+gap: auto;
+    }
+}
+.instruction{
+    padding: 5px;
+}
